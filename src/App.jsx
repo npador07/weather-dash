@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const API_KEY = "1e4f70407ce7cbc4154e30a8420943b8"; // replace with your key
 
 export default function App() {
-  const [city, setCity] = useState("Manila");
+  const [city, setCity] = useState("Iloilo City");
   const [query, setQuery] = useState("");
   const [weather, setWeather] = useState(null);
   const [loading, setLoading] = useState(false);
